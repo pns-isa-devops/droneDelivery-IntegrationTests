@@ -293,6 +293,6 @@ public class TwoCustomersDeliveriesTest extends AbstractDroneDeliveryTest implem
         billingGeneratedInterface.generateBill();
         Provider provider = providerFinder.findProviderByName(arg0);
         assertEquals(arg1,provider.getProvider_bills().size());
-        assertEquals(1  ,billingGeneratedInterface.get_bills().size());
+        assertEquals(3 ,billingGeneratedInterface.get_bills().size());
     }
 }
